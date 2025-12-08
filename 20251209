@@ -1,0 +1,65 @@
+## 一問一答
+<details>
+<summary>AWS Shield Advancedとは？</summary>
+大規模DDoS攻撃からアプリケーションを保護するサービス。
+</details>
+
+<details>
+<summary>AWS Snowball Edgeとは？</summary>a
+物理デバイスを使ってオンプレからクラウドへ大容量データを転送するサービス。
+</details>
+
+<details>
+<summary>DWHサービスとは？</summary>
+大量のデータを高速に分析するために最適化されたデータベースサービスのこと。
+</details>
+
+<details>
+<summary>Application Migration Serviceの方式を二つを答えよ</summary>
+エージェント方式・エージェントレス方式。
+</details>
+
+<details>
+<summary>Application Discovery Agent とは？</summary>
+オンプレミスのサーバーにインストールして 移行に必要な情報を自動収集するためのエージェント です。
+</details>
+
+<details>
+<summary>AWS Budgetsとは？</summary>
+コストや使用量の上限（予算）を設定し、そのしきい値を超えそうなときに通知してくれるサービス
+</details>
+
+<details>
+<summary>Change Data Captureとは？</summary>
+データベースの変更（INSERT / UPDATE / DELETE）をリアルタイムで検出して、別の場所へ継続的に同期する仕組み
+</details>
+
+<details>
+<summary>CloudFormationのRetain ポリシーとは？</summary>
+スタックを削除しても リソースを残す（消さない） 設定。
+</details>
+
+<details>
+<summary>CloudFormationのDependsOn 属性とは？</summary>
+定のリソースが他のリソースより先に作成（または削除）されるよう、依存関係を明示的に指定するための設定 です。
+</details>
+
+<details>
+<summary>CCloudFrontのオリジングループとは？</summary>
+複数のオリジン（S3 や ALB など）を 1つのグループにまとめて、フェイルオーバーできる仕組み のことです。
+</details>
+
+<details>
+<summary>CloudTrail Lakeとは？</summary>
+CloudTrail の証跡ログを自動でデータベース化し、SQL で簡単に検索できるサービス。
+</details>
+
+  
+- RDS MySQLに Global Database は存在しない
+- Global 〇〇
+  - Global Database → Aurora
+  - Global Tables → DynamoDB
+- DR戦略については以下を参考に
+  - https://qiita.com/dodonki1223/items/6c26c08fb1466c1c588f
+
+</details>
